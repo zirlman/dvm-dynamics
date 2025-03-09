@@ -61,7 +61,7 @@ export default function CareersPage() {
                     user experiences.
                   </p>
                   <a
-                    href="mailto:careers@dvmdynamics.com?subject=Application%20for%20Senior%20Frontend%20Developer%20Position"
+                    href={`mailto:${Site.mail}?subject=Application%20for%20Senior%20Frontend%20Developer%20Position`}
                     className="text-primary font-medium hover:underline"
                   >
                     Apply Now
@@ -76,7 +76,7 @@ export default function CareersPage() {
                     clients across various industries.
                   </p>
                   <a
-                    href="mailto:careers@dvmdynamics.com?subject=Application%20for%20AI/ML%20Engineer%20Position"
+                    href={`mailto:${Site.mail}?subject=Application%20for%20AI/ML%20Engineer%20Position`}
                     className="text-primary font-medium hover:underline"
                   >
                     Apply Now
@@ -91,7 +91,7 @@ export default function CareersPage() {
                     projects and services.
                   </p>
                   <a
-                    href="mailto:careers@dvmdynamics.com?subject=Application%20for%20DevOps%20Specialist%20Position"
+                    href={`mailto:${Site.mail}?subject=Application%20for%20DevOps%20Specialist%20Position`}
                     className="text-primary font-medium hover:underline"
                   >
                     Apply Now
@@ -109,7 +109,7 @@ export default function CareersPage() {
                   you&apos;d be a great fit for {Site.name}.
                 </p>
                 <a
-                  href="mailto:careers@dvmdynamics.com?subject=General%20Application"
+                  href={`mailto:${Site.mail}?subject=General%20Application`}
                   className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8"
                 >
                   Submit General Application

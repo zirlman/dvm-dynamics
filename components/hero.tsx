@@ -1,5 +1,4 @@
 import { Site } from "@/app/constants";
-import { Button } from "@/components/ui/button";
 
 export default function Hero() {
   return (
@@ -15,11 +14,6 @@ export default function Hero() {
           AI-driven analytics to seamless cloud integrations, we&apos;re shaping
           the future of technology.
         </p>
-      </div>
-      <div className="flex gap-4">
-        <a href="mailto:contact@dvmdynamics.com?subject=Request%20for%20Demo%20-%20DVM%20Dynamics">
-          <Button size="lg">Schedule a Demo</Button>
-        </a>
       </div>
     </section>
   );

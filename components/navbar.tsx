@@ -28,7 +28,9 @@ export default function Navbar() {
           </Link>
         </nav>
         <div className="flex items-center space-x-4">
-          <a href="mailto:contact@dvmdynamics.com?subject=Inquiry%20about%20DVM%20Dynamics%20Services">
+          <a
+            href={`mailto:${Site.mail}?subject=Inquiry%20about%20DVM%20Dynamics%20Services`}
+          >
             <Button variant="ghost" size="sm">
               Contact
             </Button>

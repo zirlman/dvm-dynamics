@@ -12,7 +12,7 @@ export default function CTA() {
           transformation and stay ahead in the rapidly evolving tech landscape.
         </p>
         <a
-          href="mailto:contact@dvmdynamics.com?subject=Inquiry%20about%20DVM%20Dynamics%20Services"
+          href={`mailto:${Site.mail}?subject=Inquiry%20about%20DVM%20Dynamics%20Services`}
           className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8 mt-4"
         >
           Get Started Today
